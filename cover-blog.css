@@ -727,3 +727,9 @@ button[type="submit"] {
     }
 }
 
+.plain-link {
+    color: inherit;         /* Warna mengikuti parent */
+    text-decoration: none;  /* Hilangkan garis bawah */
+    font-weight: inherit;   /* Ikuti font parent */
+    cursor: pointer;        /* Tetap bisa diklik */
+}
