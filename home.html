@@ -14,23 +14,42 @@
                 </section>
 
                 <section class="features">
-                    <div class="feature-card glass">
+                    <div class="feature-card glass " onclick="openPopup('popuphiking')">
                         <div class="feature-icon">🏞️</div>
                         <h3>Hiking</h3>
                         <p>I really like walking in nature, such as hiking mountains and visiting waterfalls with challenging trails. It's the best way to forget some of your problems.</p>
                     </div>
-                    
-                    <div class="feature-card glass">
+                     <div id="popuphiking" class="popup">
+                        <div class="popup-content">
+                            <img src="images/alam.png" alt="">
+                            <button onclick="closePopup('popuphiking')">Close</button>
+                        </div>
+                    </div>
+
+                     <div class="feature-card glass " onclick="openPopup('popupcycling')">
                         <div class="feature-icon">🚴‍♀️</div>
                         <h3>Cycling</h3>
                         <p>The reason cycling has become one of my hobbies is because it is good for my health and, most importantly, it is currently trending among Gen Z.</p>
                     </div>
-                    
-                    <div class="feature-card glass">
+                     <div id="popupcycling" class="popup">
+                        <div class="popup-content">
+                            <img src="images/sepeda.png" alt="">
+                            <button onclick="closePopup('popupcycling')">Close</button>
+                        </div>
+                    </div>
+
+                     <div class="feature-card glass " onclick="openPopup('popupdrawing')">
                         <div class="feature-icon">🎨</div>
                         <h3>Drawing</h3>
                         <p>Actually, drawing is not my hobby, but it is one of the activities I use to express my feelings.</p>
                     </div>
+                     <div id="popupdrawing" class="popup">
+                        <div class="popup-content">
+                            <img src="images/art.png" alt="">
+                            <button onclick="closePopup('popupcycling')">Close</button>
+                        </div>
+                    </div>
+                    
 
                     <div class="feature-card glass">
                         <div class="feature-icon">📸</div>
