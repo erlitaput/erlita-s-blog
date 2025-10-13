@@ -790,3 +790,16 @@ button[type="submit"] {
   border-radius: 8px;
 }
 
+.center-text {
+    text-align: center;
+}
+
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6px;      /* opsional, jarak atas */
+    margin-bottom: 16px;   /* opsional, jarak bawah */
+    max-width: 200px;      /* opsional, atur lebar gambar */
+    height: auto;
+}
